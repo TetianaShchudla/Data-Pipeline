@@ -1,4 +1,4 @@
-# DSTI - Data Pipeline Report 
+# Data Pipeline Report 
 
 ## objective
 
