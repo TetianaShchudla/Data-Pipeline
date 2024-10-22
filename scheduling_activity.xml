@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<culturalCenter
+        xmlns="https://www.datasciencetech.institute/scheduling">
+
+<!-- Monday activities  -->
+    <timeslot>
+        <date>2023-12-04</date>
+        <daysOfWeek>Monday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Dance Workshop</name>
+        <roomID>003</roomID>
+        <teacherID>5</teacherID>
+        <teacher>Terrence Almond</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-04</date>
+        <daysOfWeek>Monday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Painting Class</name>
+        <roomID>101</roomID>
+        <teacherID>1</teacherID>
+        <teacher>Jean Pierard</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-04</date>
+        <daysOfWeek>Monday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Vocal Training</name>
+        <roomID>101</roomID>
+        <teacherID>3</teacherID>
+        <teacher>Nina Holstein</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-04</date>
+        <daysOfWeek>Monday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Theater Workshop</name>
+        <roomID>101</roomID>
+        <teacherID>4</teacherID>
+        <teacher>Shi-Woo Park</teacher>
+    </timeslot>
+
+<!--  ppppppppppppppppppppppppppppppppppppppppp  -->
+    <timeslot>
+        <date>2023-12-04</date>
+        <daysOfWeek>Monday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Drawing Class</name>
+        <roomID>002</roomID>
+        <teacherID>6</teacherID>
+        <teacher>Viviane Ludovicus</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-04</date>
+        <daysOfWeek>Monday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Pilates Workouts</name>
+        <roomID>003</roomID>
+        <teacherID>11</teacherID>
+        <teacher>Kerim Luna</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-04</date>
+        <daysOfWeek>Monday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Learn Photography</name>
+        <roomID>202</roomID>
+        <teacherID>9</teacherID>
+        <teacher>Tadesse Jyrgal</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-04</date>
+        <daysOfWeek>Monday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Sculpturing Class</name>
+        <roomID>002</roomID>
+        <teacherID>7</teacherID>
+        <teacher>Simisola Darshan</teacher>
+    </timeslot>
+
+
+    <!-- Tuesday activities  -->
+    <timeslot>
+        <date>2023-12-05</date>
+        <daysOfWeek>Tuesday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Music Jam Session</name>
+        <roomID>002</roomID>
+        <teacherID>2</teacherID>
+        <teacher>Giuseppe Delmonte</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-05</date>
+        <daysOfWeek>Tuesday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Drama Club</name>
+        <roomID>001</roomID>
+        <teacherID>4</teacherID>
+        <teacher>Shi-Woo Park</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-05</date>
+        <daysOfWeek>Tuesday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Ballet Workshop</name>
+        <roomID>001</roomID>
+        <teacherID>4</teacherID>
+        <teacher>Shi-Woo Park</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-05</date>
+        <daysOfWeek>Tuesday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Drawing Class</name>
+        <roomID>002</roomID>
+        <teacherID>6</teacherID>
+        <teacher>Viviane Ludovicus</teacher>
+    </timeslot>
+<!--  ppppppppppppppppppppppp  -->
+    <timeslot>
+        <date>2023-12-05</date>
+        <daysOfWeek>Tuesday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Drama Club</name>
+        <roomID>001</roomID>
+        <teacherID>4</teacherID>
+        <teacher>Shi-Woo Park</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-05</date>
+        <daysOfWeek>Tuesday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Pilates Workouts</name>
+        <roomID>003</roomID>
+        <teacherID>11</teacherID>
+        <teacher>Kerim Luna</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-05</date>
+        <daysOfWeek>Tuesday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Sculpturing Class</name>
+        <roomID>002</roomID>
+        <teacherID>7</teacherID>
+        <teacher>Simisola Darshan</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-05</date>
+        <daysOfWeek>Tuesday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Vocal Training</name>
+        <roomID>101</roomID>
+        <teacherID>3</teacherID>
+        <teacher>Nina Holstein</teacher>
+    </timeslot>
+
+    <!-- Wednesday activities  -->
+    <timeslot>
+        <date>2023-12-06</date>
+        <daysOfWeek>Wednesday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Sculpturing Class</name>
+        <roomID>002</roomID>
+        <teacherID>7</teacherID>
+        <teacher>Simisola Darshan</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-06</date>
+        <daysOfWeek>Wednesday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Ceramics Classes</name>
+        <roomID>002</roomID>
+        <teacherID>8</teacherID>
+        <teacher>Shrivatsa Cassiopeia</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-06</date>
+        <daysOfWeek>Wednesday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Learn Photography</name>
+        <roomID>202</roomID>
+        <teacherID>9</teacherID>
+        <teacher>Tadesse Jyrgal</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-06</date>
+        <daysOfWeek>Wednesday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Chess Classes</name>
+        <roomID>002</roomID>
+        <teacherID>11</teacherID>
+        <teacher>Kerim Luna</teacher>
+    </timeslot>
+<!--  pppppppppppppppppppppppppppppppp  -->
+    <timeslot>
+        <date>2023-12-06</date>
+        <daysOfWeek>Wednesday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Painting Class</name>
+        <roomID>101</roomID>
+        <teacherID>1</teacherID>
+        <teacher>Jean Pierard</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-06</date>
+        <daysOfWeek>Wednesday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Drama Club</name>
+        <roomID>001</roomID>
+        <teacherID>4</teacherID>
+        <teacher>Shi-Woo Park</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-06</date>
+        <daysOfWeek>Wednesday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Sculpturing Class</name>
+        <roomID>002</roomID>
+        <teacherID>7</teacherID>
+        <teacher>Simisola Darshan</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-06</date>
+        <daysOfWeek>Wednesday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Painting Class</name>
+        <roomID>101</roomID>
+        <teacherID>1</teacherID>
+        <teacher>Jean Pierard</teacher>
+    </timeslot>
+
+    <!-- Thursday activities  -->
+    <timeslot>
+        <date>2023-12-07</date>
+        <daysOfWeek>Thursday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Pilates Workouts</name>
+        <roomID>003</roomID>
+        <teacherID>11</teacherID>
+        <teacher>Kerim Luna</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-07</date>
+        <daysOfWeek>Thursday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Yoga Time</name>
+        <roomID>003</roomID>
+        <teacherID>11</teacherID>
+        <teacher>Kerim Luna</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-07</date>
+        <daysOfWeek>Thursday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>The Basics of Gourmet Cooking</name>
+        <roomID>002</roomID>
+        <teacherID>12</teacherID>
+        <teacher>Raj Cooking</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-07</date>
+        <daysOfWeek>Thursday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Practice French with fun (and wine)</name>
+        <roomID>002</roomID>
+        <teacherID>10</teacherID>
+        <teacher>Natsumi Ozana</teacher>
+    </timeslot>
+<!--  pppppppppppppppppppppppppppppppppppppppppppppppppppppppp  -->
+    <timeslot>
+        <date>2023-12-07</date>
+        <daysOfWeek>Thursday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Learn Photography</name>
+        <roomID>202</roomID>
+        <teacherID>9</teacherID>
+        <teacher>Tadesse Jyrgal</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-07</date>
+        <daysOfWeek>Thursday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Drawing Class</name>
+        <roomID>002</roomID>
+        <teacherID>6</teacherID>
+        <teacher>Viviane Ludovicus</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-07</date>
+        <daysOfWeek>Thursday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Dance Workshop</name>
+        <roomID>003</roomID>
+        <teacherID>5</teacherID>
+        <teacher>Terrence Almond</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-07</date>
+        <daysOfWeek>Thursday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Ballet Workshop</name>
+        <roomID>001</roomID>
+        <teacherID>4</teacherID>
+        <teacher>Shi-Woo Park</teacher>
+    </timeslot>
+
+    <!-- Friday activities  -->
+    <timeslot>
+        <date>2023-12-08</date>
+        <daysOfWeek>Friday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Jazz Music and Jazz Dance</name>
+        <roomID>003</roomID>
+        <teacherID>5</teacherID>
+        <teacher>Terrence Almond</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-08</date>
+        <daysOfWeek>Friday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Hip Hop dance lessons</name>
+        <roomID>003</roomID>
+        <teacherID>5</teacherID>
+        <teacher>Terrence Almond</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-08</date>
+        <daysOfWeek>Friday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Theater Workshop</name>
+        <roomID>101</roomID>
+        <teacherID>4</teacherID>
+        <teacher>Shi-Woo Park</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-08</date>
+        <daysOfWeek>Friday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Theater games</name>
+        <roomID>101</roomID>
+        <teacherID>4</teacherID>
+        <teacher>Shi-Woo Park</teacher>
+    </timeslot>
+<!--  ppppppppppppppppppp  -->
+    <timeslot>
+        <date>2023-12-08</date>
+        <daysOfWeek>Friday</daysOfWeek>
+        <startTime>09:00:00</startTime>
+        <endTime>10:15:00</endTime>
+        <type>activity</type>
+        <name>Vocal Training</name>
+        <roomID>101</roomID>
+        <teacherID>3</teacherID>
+        <teacher>Nina Holstein</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-08</date>
+        <daysOfWeek>Friday</daysOfWeek>
+        <startTime>10:30:00</startTime>
+        <endTime>12:00:00</endTime>
+        <type>activity</type>
+        <name>Drawing Class</name>
+        <roomID>002</roomID>
+        <teacherID>6</teacherID>
+        <teacher>Viviane Ludovicus</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-08</date>
+        <daysOfWeek>Friday</daysOfWeek>
+        <startTime>14:00:00</startTime>
+        <endTime>15:15:00</endTime>
+        <type>activity</type>
+        <name>Learn Photography</name>
+        <roomID>202</roomID>
+        <teacherID>9</teacherID>
+        <teacher>Tadesse Jyrgal</teacher>
+    </timeslot>
+
+    <timeslot>
+        <date>2023-12-08</date>
+        <daysOfWeek>Friday</daysOfWeek>
+        <startTime>15:30:00</startTime>
+        <endTime>17:00:00</endTime>
+        <type>activity</type>
+        <name>Drawing Class</name>
+        <roomID>002</roomID>
+        <teacherID>6</teacherID>
+        <teacher>Viviane Ludovicus</teacher>
+    </timeslot>
+
+</culturalCenter>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.datasciencetech.institute"
+           xmlns="https://www.datasciencetech.institute"
+           elementFormDefault="qualified">
+
+    <!--Modeling Root and its elements-->
+
+	<xs:element name="culturalCenter">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="activity"/>
+                <xs:element maxOccurs="unbounded" ref="event"/>
+            </xs:sequence>
+        </xs:complexType>
+	</xs:element>
+ 
+     <!--Defining complex type for activities-->
+    <xs:element name="activity">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="activityID"/><!--unique identifier of the activity-->
+            <xs:element ref="activityName"/><!--name of the activity-->
+            <xs:element ref="activityType" minOccurs="0" maxOccurs="unbounded"/><!--sphere in which the activity is taking place-->
+            <xs:element ref="roomID"/><!--place where the activity is conducted-->
+            <xs:element ref="teacherID" minOccurs="0" maxOccurs="unbounded"/><!--person/people engaged in an activity-->
+            <xs:element ref="artistID" minOccurs="0" maxOccurs="unbounded"/><!--person/people engaged in an activity-->
+            <xs:element ref="publicID" minOccurs="0" maxOccurs="unbounded"/><!--customer/customers of the activity-->
+            <xs:element ref="description"/><!--description of the activity-->
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+
+	<xs:element name="activityID" type="xs:integer"/>
+    <xs:element name="activityName" type="xs:string"/>
+    <xs:element name="activityType" type="activityTypeInfo"/>
+    <xs:element name="roomID" type="xs:string"/>
+    <xs:element name="teacherID" type="xs:integer"/>
+    <xs:element name="artistID" type="xs:integer"/>
+    <xs:element name="publicID" type="xs:integer"/>
+    <xs:element name="description" type="xs:string"/>
+
+     <!--Defining complex type for events-->
+    <xs:element name="event">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="eventID"/><!--unique identifier of the event-->
+            <xs:element ref="eventName"/><!--name of the event-->
+            <xs:element ref="eventType"/><!--type of the event-->
+            <xs:element ref="roomID"/><!--place where the event is conducted-->
+            <xs:element ref="artistID" minOccurs="0" maxOccurs="unbounded"/><!--person/people engaged in an event-->
+            <xs:element ref="publicID" minOccurs="0" maxOccurs="unbounded"/><!--customer/customers of the event-->
+            <xs:element ref="description" minOccurs="0" maxOccurs="unbounded"/><!--description of the event-->
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+
+    <xs:element name="eventID" type="xs:integer"/>
+    <xs:element name="eventName" type="xs:string"/>
+    <xs:element name="eventType" type="eventTypeInfo"/>
+
+ <!--Restriction of simple types with an enumeration-->
+
+    <xs:simpleType name="activityTypeInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Music"/>
+            <xs:enumeration value="Dance"/>
+            <xs:enumeration value="Voice"/>
+            <xs:enumeration value="Painting"/>
+            <xs:enumeration value="Drawing"/>
+            <xs:enumeration value="Sculpture"/>
+            <xs:enumeration value="Ceramics"/>
+            <xs:enumeration value="Photography"/>
+            <xs:enumeration value="Theater"/>
+            <xs:enumeration value="Language"/>
+			<xs:enumeration value="Sport"/>
+            <xs:enumeration value="Cooking"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="eventTypeInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Film Projection"/>
+            <xs:enumeration value="Theater Show"/>
+            <xs:enumeration value="Concert"/>
+            <xs:enumeration value="Conference"/>
+            <xs:enumeration value="Workshop"/>
+            <xs:enumeration value="Art Exhibition"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

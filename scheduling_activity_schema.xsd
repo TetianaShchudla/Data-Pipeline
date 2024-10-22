@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.datasciencetech.institute/scheduling"
+           xmlns="https://www.datasciencetech.institute/scheduling"
+           elementFormDefault="qualified">
+
+    <xs:element name="culturalCenter">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="timeslot" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="date" type="xs:date"/>
+
+                            <xs:element name="daysOfWeek">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Monday"/>
+                                        <xs:enumeration value="Tuesday"/>
+                                        <xs:enumeration value="Wednesday"/>
+                                        <xs:enumeration value="Thursday"/>
+                                        <xs:enumeration value="Friday"/>
+                                        <xs:enumeration value="Saturday"/>
+                                        <xs:enumeration value="Sunday"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="startTime" type="xs:time"/>
+
+                            <xs:element name="endTime" type="xs:time"/>
+
+                            <xs:element name="type">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="activity"/>
+                                        <xs:enumeration value="event"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="name" type="xs:string"/>
+
+                            <xs:element name="roomID">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <!-- roomID should have 3 digits -->
+                                        <xs:pattern value="[0-9][0-9][0-9]"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="teacherID" type="xs:nonNegativeInteger"/>
+
+                            <xs:element name="teacher" type="xs:string"/>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

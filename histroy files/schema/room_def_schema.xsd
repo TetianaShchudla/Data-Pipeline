@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.datasciencetech.institute"
+           xmlns="https://www.datasciencetech.institute"
+           elementFormDefault="qualified">
+    <!-- The root element is "culturalCenter" -->
+    <xs:element name="culturalCenter">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- sub-element: "room" -->
+                <xs:element name="room" type="roomInfo" maxOccurs="1000"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- Define sub-elements of element "room" -->
+    <xs:complexType name="roomInfo">
+        <xs:sequence>
+            <xs:element name="roomType">
+                <xs:simpleType>
+                <!-- Room type is an enumeration type -->
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Opera Theater"/>
+                        <xs:enumeration value="Conference Room"/>
+                        <xs:enumeration value="Dance Room"/>
+                        <xs:enumeration value="Film Room"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="roomID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <!-- roomID should have 3 digits -->
+                        <xs:pattern value="[0-9][0-9][0-9]"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <!-- Define number of seats in a room -->
+            <xs:element name="seatNumber" type="xs:nonNegativeInteger"/>
+            <!-- Define area of a room -->
+            <xs:element name="area" type="xs:nonNegativeInteger"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

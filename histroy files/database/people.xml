@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+
+<culturalCenter xmlns="https://www.datasciencetech.institute"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://www.w3.org ./people_schema.xsd">
+
+    <!--Artists section-->
+
+    <artist>
+        <artistID>1</artistID>
+        <alias>YY Top</alias>
+        <kind>Group</kind>
+        <activity>Music</activity>
+        <genre>Heavy Country</genre>
+        <country>Germany</country>
+        <about>Tribute to the famous group "ZZ Top"</about>
+        <activity>Music</activity>
+    </artist>
+
+
+    <artist>
+        <artistID>2</artistID>
+        <alias>Furious Kitten</alias>
+        <kind>Solo</kind>
+        <genre>Soft Punk</genre>
+        <country>Norway</country>
+        <about>Furious Kitten has an indescribable style. Powerful and funny. Similar to no one else.</about>
+        <activity>Music</activity>
+    </artist>
+
+    <artist>
+        <artistID>3</artistID>
+        <alias>Feet of Legend</alias>
+        <kind>Group</kind>
+        <country>Ireland</country>
+        <genre>Irish line dance</genre>
+        <activity>Dance</activity>
+        <about>Purely traditional line dancers, though they seem to all have extra feet when music goes faster.</about>
+        <links>#FeetOfLegend</links>
+    </artist>
+
+    <artist>
+        <artistID>4</artistID>
+        <alias>Mentalizer</alias>
+        <kind>Solo</kind>
+        <country>France</country>
+        <about>Mentalizer practices mass hypnosis at a higher degree. Some say he has an alien brain.</about>
+        <links>www.mentalizer.com</links>
+    </artist>
+
+    <!--teachers section-->
+
+    <teacher>
+        <teacherID>1</teacherID>
+        <firstName>Jean</firstName>
+        <lastName>Pierard</lastName>
+        <activity>Painting</activity>
+        <phone>0601011010</phone>
+        <email>j.pierard@mainmail.com</email>
+    </teacher>
+
+    <teacher>
+        <teacherID>2</teacherID>
+        <firstName>Giuseppe</firstName>
+        <lastName>Delmonte</lastName>
+        <activity>Music</activity>
+        <phone>0725134875</phone>
+        <email>giuDelmonte@othermail.com</email>
+    </teacher>
+
+    <teacher>
+        <teacherID>3</teacherID>
+        <firstName>Nina</firstName>
+        <lastName>Holstein</lastName>
+        <activity>Voice</activity>
+        <phone>0714218695</phone>
+        <email>ninaholst@mailpost.glo</email>
+    </teacher>
+
+
+    <teacher>
+        <teacherID>4</teacherID>
+        <firstName>Shi-Woo</firstName>
+        <lastName>Park</lastName>
+        <activity>Theater</activity>
+        <phone>00425458165646</phone>
+        <email>swp.art@mainmail.com</email>
+    </teacher>
+
+    <teacher>
+        <teacherID>5</teacherID>
+        <firstName>Terrence</firstName>
+        <lastName>Almond</lastName>
+        <activity>Dance</activity>
+        <phone>052489651</phone>
+        <email>Almondtrr@othermail.com</email>
+    </teacher>
+    
+    <teacher>
+        <teacherID>6</teacherID>
+        <firstName>Viviane</firstName>
+        <lastName>Ludovicus</lastName>
+        <activity>Drawing</activity>
+        <phone>0751849632</phone>
+        <email>vludovicus@mail.glo</email>
+    </teacher>
+
+    <teacher>
+        <teacherID>7</teacherID>
+        <firstName>Simisola</firstName>
+        <lastName>Darshan</lastName>
+        <activity>Sculpture</activity>
+        <phone>0752418747</phone>
+        <email>simidarshan@mail.glo</email>
+    </teacher>
+    
+    <teacher>
+        <teacherID>8</teacherID>
+        <firstName>Shrivatsa</firstName>
+        <lastName>Cassiopeia</lastName>
+        <activity>Ceramics</activity>
+        <phone>06596325874</phone>
+        <email>cassiop@mail.glo</email>
+    </teacher>
+    
+    <teacher>
+        <teacherID>9</teacherID>
+        <firstName>Tadesse</firstName>
+        <lastName>Jyrgal</lastName>
+        <activity>Photography</activity>
+        <phone>0636987412</phone>
+        <email>t.jyrgal@somemail.com</email>
+    </teacher>
+    
+    <teacher>
+        <teacherID>10</teacherID>
+        <firstName>Natsumi</firstName>
+        <lastName>Ozana</lastName>
+        <activity>Language</activity>
+        <phone>0678102148</phone>
+        <email>natsumi.ozana@message.jpn</email>
+    </teacher>
+
+    <teacher>
+        <teacherID>11</teacherID>
+        <firstName>Kerim</firstName>
+        <lastName>Luna</lastName>
+        <activity>Sport</activity>
+        <phone>0625897641</phone>
+        <email>kerimluna@mail.glo</email>
+    </teacher>
+    
+    <teacher>
+        <teacherID>12</teacherID>
+        <firstName>Kasper</firstName>
+        <lastName>Raj</lastName>
+        <activity>Cooking</activity>
+        <phone>074102316985</phone>
+        <email>k.raj@mail.glo</email>
+    </teacher>
+
+
+    <!--public section-->
+
+    <public>
+        <publicID>1</publicID>
+        <firstName>Veia</firstName>
+        <lastName>Lomoji</lastName>
+        <gender>Female</gender>
+        <phone>1245789865</phone>
+        <email>veialomoji@somemail.glo</email>
+        <activity>Dance</activity>
+        <activity>Painting</activity>
+    </public>
+
+    <public>
+        <publicID>2</publicID>
+        <firstName>Tony</firstName>
+        <lastName>Reynald</lastName>
+        <gender>Male</gender>
+        <phone>12023254</phone>
+        <email>tonyreynald@somemail.glo</email>
+        <activity>Cooking</activity>
+    </public>
+
+    <public>
+        <publicID>3</publicID>
+        <firstName>John</firstName>
+        <lastName>Gardener</lastName>
+        <gender>Male</gender>
+        <phone>4545858565</phone>
+        <email>johngardener@somemail.glo</email>
+        <activity>Theater</activity>
+        <activity>Voice</activity>
+    </public>
+
+    <public>
+        <publicID>4</publicID>
+        <firstName>Sonia</firstName>
+        <lastName>Alba</lastName>
+        <gender>Female</gender>
+        <phone>4215489898</phone>
+        <email>soniaalba@somemail.glo</email>
+        <activity>Dance</activity>
+    </public>
+
+    <public>
+        <publicID>5</publicID>
+        <firstName>Frieda</firstName>
+        <lastName>Argentino</lastName>
+        <gender>Female</gender>
+        <phone>659842515236</phone>
+        <email>friedaarg@somemail.glo</email>
+        <activity>Painting</activity>
+    </public>
+
+   <public>
+       <publicID>6</publicID>
+       <firstName>Philip</firstName>
+       <lastName>Ledoux</lastName>
+       <gender>Male</gender>
+       <phone>0213568544</phone>
+       <email>philipledoux@belgomail.be</email>
+       <activity>Music</activity>
+   </public>
+
+   <public>
+       <publicID>7</publicID>
+       <firstName>Baird</firstName>
+       <lastName>O'Connell</lastName>
+       <gender>Male</gender>
+       <phone>44452512884</phone>
+       <email>bairdoconnell@somemail.glo</email>
+       <activity>Voice</activity>
+   </public>
+
+    <public>
+        <publicID>8</publicID>
+        <firstName>Paedur</firstName>
+        <lastName>O'Connell</lastName>
+        <gender>Male</gender>
+        <phone>444221668468</phone>
+        <email>paeduroconnell@somemail.com</email>
+        <activity>Voice</activity>
+    </public>
+    
+    <public>
+        <publicID>9</publicID>
+        <firstName>Madilyn</firstName>
+        <lastName>Solongo</lastName>
+        <gender>Female</gender>
+        <phone>51384978168416</phone>
+        <email>msolongo@somemail.com</email>
+        <activity>Sport</activity>
+    </public>
+    
+    <public>
+        <publicID>10</publicID>
+        <firstName>Venetia</firstName>
+        <lastName>Sanda</lastName>
+        <gender>Female</gender>
+        <activity>Ceramics</activity>
+        <phone>0054661418616</phone>
+        <email>vsanda@mail.glo</email>
+    </public>
+    
+    <public>
+        <publicID>11</publicID>
+        <firstName>Fedelm</firstName>
+        <lastName>Vilma</lastName>
+        <gender>Male</gender>
+        <activity>Drawing</activity>
+        <phone>44199114181</phone>
+        <email>fedvil@dobmail.com</email>
+    </public>
+    
+    <public>
+        <publicID>12</publicID>
+        <firstName>Rebecca</firstName>
+        <lastName>Ludwig</lastName>
+        <gender>Female</gender>
+        <activity>Photography</activity>
+        <phone>68186846464</phone>
+        <email>rebeccalu@mail.fr</email>
+    </public>
+    
+    <public>
+        <publicID>13</publicID>
+        <firstName>Yumiko</firstName>
+        <lastName>Sigilina</lastName>
+        <gender>Female</gender>
+        <activity>Language</activity>
+        <phone>98791664654564</phone>
+        <email>ysigil@yggdrasil.com</email>
+    </public>
+    
+    <public>
+        <publicID>14</publicID>
+        <firstName>Bogdan</firstName>
+        <lastName>Shigeo</lastName>
+        <gender>Male</gender>
+        <activity>Sculpture</activity>
+        <phone>68181798313</phone>
+        <email>bogdans@mail.glo</email>
+    </public>
+    
+    <public>
+        <publicID>15</publicID>
+        <firstName>Priti</firstName>
+        <lastName>Sabia</lastName>
+        <gender>Female</gender>
+        <activity>Dance</activity>
+        <phone>6198188488</phone>
+        <email>pritisabia@somemail.com</email>
+    </public>
+    
+    <public>
+        <publicID>16</publicID>
+        <firstName>Hormoz</firstName>
+        <lastName>Helve</lastName>
+        <gender>Male</gender>
+        <activity>Photography</activity>
+        <phone>867198849149</phone>
+        <email>hh86@othermail.com</email>
+    </public>
+    
+    <public>
+        <publicID>17</publicID>
+        <firstName>Merethe</firstName>
+        <lastName>Bugs</lastName>
+        <gender>Female</gender>
+        <activity>Sculpture</activity>
+        <phone>64618989894</phone>
+        <email>merethebugs@mail.glo</email>
+    </public>
+    
+    <public>
+        <publicID>18</publicID>
+        <firstName>Inken</firstName>
+        <lastName>Ivar</lastName>
+        <gender>Female</gender>
+        <activity>Voice</activity>
+        <phone>9849665565</phone>
+        <email>inivar@mail.nor</email>
+    </public>
+    
+    <public>
+        <publicID>19</publicID>
+        <firstName>Sree</firstName>
+        <lastName>Hans</lastName>
+        <gender>Male</gender>
+        <activity>Sport</activity>
+        <phone>981984491491</phone>
+        <email>sreehans@mail.glo</email>
+    </public>

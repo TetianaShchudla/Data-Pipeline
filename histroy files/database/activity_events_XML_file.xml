@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<culturalCenter xmlns="https://www.datasciencetech.institute"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="https://www.w3.org ./activities_and_events_schema.xsd">
+
+    <activity>
+        <activityID>1</activityID>
+        <activityName>Dance Workshop</activityName>
+        <activityType>Dance</activityType>
+        <roomID>003</roomID>
+        <teacherID>5</teacherID>
+        <publicID>4</publicID>
+        <description>Attending workshops is a fantastic way for anyone who adores dancing to step outside their comfort zones, make connections and discover new ways to move and create.</description>
+    </activity>
+    <activity>
+        <activityID>2</activityID>
+        <activityName>Painting Class</activityName>
+        <activityType>Painting</activityType>
+        <roomID>101</roomID>
+        <teacherID>1</teacherID>
+        <publicID>5</publicID>
+        <description>An art class for exploring your creativity through painting. Students learn about surface preparation, color mixing, composition and creating different textures and effects.</description>
+    </activity>
+    <activity>
+        <activityID>3</activityID>
+        <activityName>Vocal Training</activityName>
+        <activityType>Voice</activityType>
+        <roomID>101</roomID>
+        <teacherID>3</teacherID>
+        <publicID>3</publicID>
+        <publicID>7</publicID>
+        <publicID>8</publicID>
+        <publicID>18</publicID>
+        <description>This course is designed to improve the singing voice and help develop the ability to sing successfully in front of others.</description>
+    </activity>
+    <activity>
+        <activityID>4</activityID>
+        <activityName>Theater Workshop</activityName>
+        <activityType>Theater</activityType>
+        <roomID>101</roomID>
+        <teacherID>4</teacherID>
+        <publicID>3</publicID>
+        <description>Theater Workshop produces inclusive, accessible and affordable theater education that entertains, educates and enlightens.</description>
+    </activity>
+    <activity>
+        <activityID>5</activityID>
+        <activityName>Music Jam Session</activityName>
+        <activityType>Music</activityType>
+        <roomID>002</roomID>
+        <teacherID>2</teacherID>
+        <publicID>6</publicID>
+        <description>Jam sessions are for players to interact with other players and make music in a freewheeling environment, without having to be concerned about pleasing an audience.</description>
+    </activity>
+    <activity>
+        <activityID>6</activityID>
+        <activityName>Drama Club</activityName>
+        <activityType>Theater</activityType>
+        <roomID>001</roomID>
+        <teacherID>4</teacherID>
+        <publicID>3</publicID>
+        <description>A weekly drama club meeting for theater enthusiasts.</description>
+    </activity>
+    <activity>
+        <activityID>7</activityID>
+        <activityName>Ballet Workshop</activityName>
+        <activityType>Dance</activityType>
+        <roomID>001</roomID>
+        <teacherID>5</teacherID>
+        <publicID>4</publicID>
+        <publicID>15</publicID>
+        <description>This beginning level class is designed to develop awareness of alignment and basic ballet vocabulary and technique. Class will include basic barre exercises, as well as center work.</description>
+    </activity>
+	<activity>
+        <activityID>8</activityID>
+        <activityName>Drawing Class</activityName>
+        <activityType>Drawing</activityType>
+        <roomID>002</roomID>
+        <teacherID>6</teacherID>
+        <publicID>11</publicID>
+        <description>Developing drawing skills using sketching and pencil drawing techniques.</description>
+    </activity>
+	<activity>
+        <activityID>9</activityID>
+        <activityName>Sculpturing Class</activityName>
+        <activityType>Sculpture</activityType>
+        <roomID>002</roomID>
+        <teacherID>7</teacherID>
+        <publicID>14</publicID>
+        <publicID>17</publicID>
+        <description>Beginner's sculpting lessons focusing on clay and wood modeling.</description>
+	</activity>
+	<activity>
+        <activityID>10</activityID>
+        <activityName>Ceramics Classes</activityName>
+        <activityType>Ceramics</activityType>
+        <roomID>002</roomID>
+        <teacherID>8</teacherID>
+        <publicID>10</publicID>
+        <description>Creating pretty objects with your hands is both a satisfying activity but also an opportunity to meet new people around highly feel good. This is a beginning ceramics-pottery class for everyone who is interested in acquiring knowledge and skills in clay.</description>
+	</activity>
+	<activity>
+        <activityID>11</activityID>
+        <activityName>Learn Photography</activityName>
+        <activityType>Photography</activityType>
+        <roomID>202</roomID>
+        <teacherID>9</teacherID>
+        <publicID>16</publicID>
+        <description>These lessons are for people of all photographic experience levels interested in exploring the studio portrait photography.</description>
+    </activity>
+	<activity>
+        <activityID>12</activityID>
+        <activityName>Chess Classes</activityName>
+        <activityType>Sport</activityType>
+        <roomID>002</roomID>
+        <teacherID>11</teacherID>
+        <publicID>19</publicID>
+        <description>Learning how to play chess and practicing the game with similar enthusiasts like you are.</description>
+    </activity>
+	<activity>
+        <activityID>13</activityID>
+        <activityName>Pilates Workouts</activityName>
+        <activityType>Sport</activityType>
+        <roomID>003</roomID>
+        <teacherID>11</teacherID>
+        <publicID>9</publicID>
+        <description>Join us for some Pilates workouts! We do exercises which work on core strength and flexibility, as well as general stabilization exercises, that will get your body and keep your body in good condition.</description>
+    </activity>
+	<activity>
+        <activityID>14</activityID>
+        <activityName>Yoga Time</activityName>
+        <activityType>Sport</activityType>
+        <roomID>003</roomID>
+        <teacherID>11</teacherID>
+        <publicID>9</publicID>
+        <description>One of the best ways to combat stress is to meditate and joining a class is more fun. Yoga is a physical, mental and spiritual practice that involves a combination of physical postures, breathing exercises and meditation techniques to promote physical and mental well-being.</description>
+    </activity>
+	<activity>
+        <activityID>15</activityID>
+        <activityName>The Basics of Gourmet Cooking</activityName>
+        <activityType>Cooking</activityType>
+        <roomID>002</roomID>
+        <teacherID>12</teacherID>
+        <publicID>2</publicID>
+        <description>The Basics of Gourmet Cooking is a beginning series of cooking classes perfect for cooks who are just starting out or would like to refresh their fundamentals.</description>
+    </activity>
+	<activity>
+        <activityID>16</activityID>
+        <activityName>Practice French with fun (and wine)</activityName>
+        <activityType>Language</activityType>
+        <roomID>002</roomID>
+        <teacherID>10</teacherID>
+        <publicID>13</publicID>
+        <description>Combine a guided tour with an opportunity to improve your French language skills with our conversational class at Paris.</description>
+    </activity>
+	<activity>
+        <activityID>17</activityID>
+        <activityName>Jazz Music Dance</activityName>
+        <activityType>Music</activityType>
+		<activityType>Dance</activityType>
+        <roomID>003</roomID>
+        <teacherID>2</teacherID>
+        <teacherID>5</teacherID>
+        <description>Jazz dance explodes with energy as it has you kicking and leaping across the floor to some popular show tunes. Our Absolute Beginner Jazz classes are perfect for those who want to learn Jazz.</description>
+    </activity>	
+	<activity>
+        <activityID>18</activityID>
+        <activityName>Hip Hop dance lessons</activityName>
+		<activityType>Dance</activityType>
+        <roomID>003</roomID>
+        <teacherID>5</teacherID>
+        <publicID>15</publicID>
+        <description>Hip Hop dance combines several styles including popping, locking, waving, waacking and more. During the course, students will develop their coordination, their sense of rhythm and their flexibility while searching the precision of the movement.</description>
+    </activity>	
+	<activity>
+        <activityID>19</activityID>
+        <activityName>Theater Workshop</activityName>
+		<activityType>Theater</activityType>
+        <roomID>101</roomID>
+        <teacherID>4</teacherID>
+        <description>A theater workshop is an interactive and educational experience where participants learn about various aspects of theater, including acting techniques, improvisation, script analysis and stagecraft. It provides a hands-on opportunity for individuals to explore their creativity and develop their acting skills.</description>
+    </activity>	
+		<activity>
+        <activityID>20</activityID>
+        <activityName>Theater games</activityName>
+		<activityType>Theater</activityType>
+        <roomID>101</roomID>
+        <teacherID>4</teacherID>
+        <publicID>3</publicID>
+        <description>Theater games for groups are activities involving role-play that help develop essential skills like focus, listening, cooperation, and improvisation. The purpose of these activities is to warm up participants while teaching them valuable skills and building their confidence.</description>
+    </activity>
+
+    <event>
+        <eventID>1</eventID>
+        <eventName>Movie Night</eventName>
+        <eventType>Film Projection</eventType>
+        <roomID>202</roomID>
+        <description>An evening with The Lord of the Rings film screenings based on characters and story created by JRR Tolkien.</description>
+    </event>
+    <event>
+        <eventID>2</eventID>
+        <eventName>Drama Showcase</eventName>
+        <eventType>Theater Show</eventType>
+        <roomID>101</roomID>
+        <publicID>3</publicID>
+        <description>A collection of short dramatic plays.</description>
+    </event>
+    <event>
+        <eventID>4</eventID>
+        <eventName>YY Top</eventName>
+        <eventType>Concert</eventType>
+        <roomID>001</roomID>
+        <artistID>1</artistID>
+        <description>Enjoy the famous group "ZZ Top" performance.</description>
+    </event>
+    <event>
+        <eventID>5</eventID>
+        <eventName>Tech Summit</eventName>
+        <eventType>Conference</eventType>
+        <roomID>002</roomID>
+        <description>A technology summit about Artificial Intelligence and Intellectual Law.</description>
+    </event>
+    <event>
+        <eventID>6</eventID>
+        <eventName>Furious Kitten Concert</eventName>
+        <eventType>Concert</eventType>
+        <roomID>001</roomID>
+        <artistID>2</artistID>
+        <description>Furious Kitten has an indescribable style. Powerful and funny. Similar to no one else.</description>
+    </event>
+    <event>
+        <eventID>6</eventID>
+        <eventName>Mentalizer</eventName>
+        <eventType>Concert</eventType>
+        <roomID>101</roomID>
+        <artistID>4</artistID>
+        <description>Mentalizer practices mass hypnosis at a higher degree. Some say he has an alien brain.</description>
+    </event>
+    <event>
+        <eventID>7</eventID>
+        <eventName>Photo Exhibition</eventName>
+        <eventType>Art Exhibition</eventType>
+        <roomID>101</roomID>
+        <description>Whether you prefer being behind the camera or in front of the lens, these temples to photography offer you the chance to discover art from its very best angle.</description>
+    </event>
+
+</culturalCenter>

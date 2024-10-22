@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<culturalCenter
+        xmlns="https://www.datasciencetech.institute"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.w3.org ./room_def_schema.xsd">
+    <room>
+        <roomType>Opera Theater</roomType>
+        <roomID>001</roomID>
+        <seatNumber>200</seatNumber>
+        <area>1000</area>
+    </room>
+    
+    <room>
+        <roomType>Opera Theater</roomType>
+        <roomID>101</roomID>
+        <seatNumber>500</seatNumber>
+        <area>2500</area>
+    </room>
+
+    <room>
+        <roomType>Conference Room</roomType>
+        <roomID>002</roomID>
+        <seatNumber>50</seatNumber>
+        <area>200</area>
+    </room>
+
+    <room>
+        <roomType>Dance Room</roomType>
+        <roomID>003</roomID>
+        <seatNumber>0</seatNumber>
+        <area>200</area>
+    </room>
+
+    <room>
+        <roomType>Film Room</roomType>
+        <roomID>202</roomID>
+        <seatNumber>150</seatNumber>
+        <area>800</area>
+    </room>
+</culturalCenter>

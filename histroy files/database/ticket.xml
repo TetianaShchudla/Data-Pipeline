@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+
+<culturalCenter xmlns="https://www.datasciencetech.institute"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="https://www.w3.org ./people_schema.xsd">
+
+    <!-- ticket -->
+
+    <ticket>
+        <ticketID>20230801001</ticketID>
+        <ticketType>Standard Ticket</ticketType>
+        <ticketPrice>50</ticketPrice>
+        <ticketCondition>pending</ticketCondition>
+        <userName>John Doe</userName>
+        <eventID>1</eventID>
+        <eventName>Movie Night</eventName>
+    </ticket>
+
+    <ticket>
+        <ticketID>20230905031</ticketID>
+        <ticketType>VIP Ticket</ticketType>
+        <ticketPrice>100</ticketPrice>
+        <ticketCondition>validated</ticketCondition>
+        <userName>Jean Smith</userName>
+        <eventID>2</eventID>
+        <eventName>Drama Showcase</eventName>
+    </ticket>
+
+    <ticket>
+        <ticketID>20230905100</ticketID>
+        <ticketType>VIP Ticket</ticketType>
+        <ticketPrice>100</ticketPrice>
+        <ticketCondition>validated</ticketCondition>
+        <userName>Jean Smith</userName>
+        <eventID>3</eventID>
+        <eventName>YY Top</eventName>
+    </ticket>
+
+    <ticket>
+        <ticketID>20230908001</ticketID>
+        <ticketType>Standard Ticket</ticketType>
+        <ticketPrice>100</ticketPrice>
+        <ticketCondition>validated</ticketCondition>
+        <userName>Jean Smith</userName>
+        <eventID>4</eventID>
+        <eventName>Tech Summit</eventName>
+    </ticket>
+
+    <ticket>
+        <ticketID>20230908101</ticketID>
+        <ticketType>Reserved Ticket</ticketType>
+        <ticketPrice>40</ticketPrice>
+        <ticketCondition>validated</ticketCondition>
+        <userName>John Smith</userName>
+        <activityID>1</activityID>
+        <activityName>Dance Workshop</activityName>
+    </ticket>
+
+    <!-- fee -->
+    <fee>
+        <feeID>20230212031</feeID>
+        <feeType>Standard</feeType>
+        <feePrice>10</feePrice>
+        <feeCondition>validated</feeCondition>
+        <feeDuration>10 lessons</feeDuration>
+        <userName>Jen Doe</userName>
+        <activityID>20230445</activityID>
+        <activityName>How to Do Abstract Painting</activityName>
+    </fee>
+
+    <fee>
+        <feeID>20230403095</feeID>
+        <feeType>Child</feeType>
+        <feePrice>5</feePrice>
+        <feeCondition>validated</feeCondition>
+        <feeDuration>5 lessons</feeDuration>
+        <userName>Jin Silver</userName>
+        <activityID>20232919</activityID>
+        <activityName>Howl's Piano Class</activityName>
+    </fee>
+
+    <fee>
+        <feeID>20231205095</feeID>
+        <feeType>Elder</feeType>
+        <feePrice>7</feePrice>
+        <feeCondition>pending</feeCondition>
+        <feeDuration>5 lessons</feeDuration>
+        <userName>Jess Solar</userName>
+        <activityID>20232000</activityID>
+        <activityName>Potery 101</activityName>
+    </fee>

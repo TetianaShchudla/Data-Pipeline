@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.datasciencetech.institute"
+           xmlns="https://www.datasciencetech.institute"
+           elementFormDefault="qualified">
+
+<!-- ROOT -->
+    <!-- The root element is "culturalCenter" -->
+    <xs:element name="culturalCenter">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- sub-element: "room" -->
+                <xs:element name="room" type="roomInfo" maxOccurs="unbounded"/>
+
+                <!-- sub-element: "people" -->
+                <xs:element name="artist" type="artistInfo" maxOccurs="unbounded"/>
+                <xs:element name="teacher" type="teacherInfo" maxOccurs="unbounded"/>
+                <xs:element name="public" type="publicInfo" maxOccurs="unbounded"/>
+
+                <!-- sub-element: "activity&event" -->
+                <xs:element name="activity" type="activityInfo" maxOccurs="unbounded"/>
+                <xs:element name="event" type="eventInfo" maxOccurs="unbounded"/>
+
+                <!-- sub-element: "ticket&fee" -->
+                <xs:element name="ticket" type="ticketInfo" maxOccurs="unbounded"/>
+                <xs:element name="fee" type="feeInfo" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+<!-- ROOT -->
+
+
+<!-- ROOM -->
+    <!-- Define sub-elements of element "room" -->
+    <xs:complexType name="roomInfo">
+        <xs:sequence>
+            <xs:element name="roomType">
+                <xs:simpleType>
+                <!-- Room type is an enumeration type -->
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Opera Theater"/>
+                        <xs:enumeration value="Conference Room"/>
+                        <xs:enumeration value="Dance Room"/>
+                        <xs:enumeration value="Film Room"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="roomID">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <!-- roomID should have 3 digits -->
+                        <xs:pattern value="[0-9][0-9][0-9]"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <!-- Define number of seats in a room -->
+            <xs:element name="seatNumber" type="xs:nonNegativeInteger"/>
+            <!-- Define area of a room -->
+            <xs:element name="area" type="xs:nonNegativeInteger"/>
+        </xs:sequence>
+    </xs:complexType>
+<!-- ROOM -->
+
+
+<!-- PEOPLE -->
+    <!-- Define sub-elements of element "people" -->
+    <xs:complexType name="artistInfo">
+        <xs:sequence>
+            <xs:element name="artistID" type="xs:integer"/>
+            <xs:element name="alias" type="xs:string"/><!--usual name used by the group or artist-->
+            <xs:element name="kind" type="kindInfo"/><!--Group or Solo-->
+            <xs:element name="country" type="xs:string"/><!--where does the artist come from-->
+            <xs:element name="genre" type="xs:string" minOccurs="0"/><!--artistic field of the artist (specific kind of music, painting...-->
+            <xs:element name="about" type="xs:string"/><!--biography or news about the artist-->
+            <xs:element name="links" type="xs:string" minOccurs="0"/><!--to website or social network-->
+            <xs:element name="activity" type="activityTypeInfo" minOccurs="0" maxOccurs="unbounded"/>
+            <!--we probably want to know to which activity of the center (maybe multiple) the event is related (maybe to none) -->
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="teacherInfo">
+        <xs:sequence>
+            <xs:element name="teacherID" type="xs:integer"/>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="activity" type="activityTypeInfo" maxOccurs="unbounded"/><!--can manage multiple activities-->
+            <xs:element name="phone" type="xs:string"/><!--we need to be able to contact them-->
+            <xs:element name="email" type="emailInfo"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="publicInfo">
+        <xs:sequence>
+            <xs:element name="publicID" type="xs:integer"/>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+	        <xs:element name="gender" type="genderInfo"/>
+            <xs:element name="activity" type="activityTypeInfo" maxOccurs="unbounded"/>
+            <xs:element name="phone" type="xs:string"/>
+            <xs:element name="email" type="emailInfo"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!--Applying constraints and limitations-->
+    <xs:simpleType name="emailInfo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^@]+@[^\.]+\..+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="kindInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Group"/>
+            <xs:enumeration value="Solo"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="genderInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Male"/>
+            <xs:enumeration value="Female"/>
+    </xs:restriction>
+    </xs:simpleType>	
+<!-- PEOPLE -->
+
+
+<!-- ACTIVITY & EVENT -->
+    <!-- Define sub-elements of element "activity&event" -->
+    <xs:complexType name="activityInfo">
+        <xs:sequence>
+            <xs:element name="activityID" type="xs:integer"/><!--unique identifier of the activity-->
+            <xs:element name="activityName" type="xs:string"/><!--name of the activity-->
+            <xs:element name="activityType" type="activityTypeInfo" maxOccurs="unbounded"/><!--sphere in which the activity is taking place-->
+            <xs:element name="roomID" type="xs:string"/><!--place where the activity is conducted-->
+            <xs:element name="teacherID" type="xs:integer" minOccurs="0" maxOccurs="unbounded"/><!--person/people engaged in an activity-->
+            <xs:element name="artistID" type="xs:integer" minOccurs="0"/><!--person/people engaged in an activity-->
+            <xs:element name="publicID" type="xs:integer" minOccurs="0" maxOccurs="unbounded"/><!--customer/customers of the activity-->
+            <xs:element name="description" type="xs:string"/><!--description of the activity-->
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="eventInfo">
+        <xs:sequence>
+            <xs:element name="eventID" type="xs:integer"/><!--unique identifier of the event-->
+            <xs:element name="eventName" type="xs:string"/><!--name of the event-->
+            <xs:element name="eventType" type="eventTypeInfo"/><!--type of the event-->
+            <xs:element name="roomID" type="xs:string"/><!--place where the event is conducted-->
+            <xs:element name="artistID" type="xs:integer" minOccurs="0" maxOccurs="unbounded"/><!--person/people engaged in an event-->
+            <xs:element name="publicID" type="xs:integer" minOccurs="0" maxOccurs="unbounded"/><!--customer/customers of the event-->
+            <xs:element name="description" type="xs:string"/><!--description of the event-->
+        </xs:sequence>
+    </xs:complexType>
+
+    <!--Restriction of simple types with an enumeration-->
+    <xs:simpleType name="activityTypeInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Music"/>
+            <xs:enumeration value="Dance"/>
+            <xs:enumeration value="Voice"/>
+            <xs:enumeration value="Painting"/>
+            <xs:enumeration value="Drawing"/>
+            <xs:enumeration value="Sculpture"/>
+            <xs:enumeration value="Ceramics"/>
+            <xs:enumeration value="Photography"/>
+            <xs:enumeration value="Theater"/>
+            <xs:enumeration value="Language"/>
+			<xs:enumeration value="Sport"/>
+            <xs:enumeration value="Cooking"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="eventTypeInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Film Projection"/>
+            <xs:enumeration value="Theater Show"/>
+            <xs:enumeration value="Concert"/>
+            <xs:enumeration value="Conference"/>
+            <xs:enumeration value="Workshop"/>
+            <xs:enumeration value="Art Exhibition"/>
+        </xs:restriction>
+    </xs:simpleType>
+<!-- ACTIVITY & EVENT -->
+
+
+<!-- TICKET&FEE -->
+    <!-- Define sub-elements of element "ticket&fee" -->
+    <xs:complexType name="ticketInfo">
+        <xs:sequence>
+            <xs:element name="ticketID" type="xs:string"/><!-- unique identifier of the ticket -->
+            <xs:element name="ticketType" type="ticketTypeInfo" maxOccurs="unbounded"/><!-- ticket type: standard, VIP, reduced -->
+            <xs:element name="ticketPrice" type="xs:float"/><!-- par value of a ticket -->
+            <xs:element name="ticketCondition" type="ticketConditionInfo" maxOccurs="unbounded"/> <!-- ticket status: pending, active, expired-->
+            <xs:element name="eventID" type="xs:int"/><!--unique identifier of the event-->
+            <xs:element name="eventName" type="xs:string"/><!--name of the event-->
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="feeInfo">
+        <xs:sequence>
+            <xs:element name="feeID" type="xs:string"/><!-- unique identifier of the fee -->
+            <xs:element name="feeType" type="feeTypeInfo" maxOccurs="unbounded"/><!-- fee type: standard, VIP, reduced -->
+            <xs:element name="feePrice" type="xs:float"/><!-- par value of the fee -->
+            <xs:element name="feeCondition" type="feeConditionInfo" maxOccurs="unbounded"/> <!-- pending, active, expired-->
+            <xs:element name="feeDuration" type="xs:string"/><!-- the duration of the membership/qualification for a single activity -->
+            <xs:element name="userName" type="xs:string"/><!-- name registered for a client -->
+            <xs:element name="activityID" type="xs:int"/><!--unique identifier of the activity-->
+            <xs:element name="activityName" type="xs:string"/><!--name of the activity-->
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:simpleType name="ticketTypeInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="standard"/>
+            <xs:enumeration value="VIP"/>
+            <xs:enumeration value="reduced"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ticketConditionInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="pending"/>
+            <xs:enumeration value="active"/>
+            <xs:enumeration value="expired"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="feeTypeInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="standard"/>
+            <xs:enumeration value="VIP"/>
+            <xs:enumeration value="reduced"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="feeConditionInfo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="pending"/>
+            <xs:enumeration value="active"/>
+            <xs:enumeration value="expired"/>
+        </xs:restriction>
+    </xs:simpleType>
+<!-- TICKET&FEE -->
+</xs:schema>

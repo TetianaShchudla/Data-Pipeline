@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https://www.datasciencetech.institute"
+           xmlns="https://www.datasciencetech.institute"
+           elementFormDefault="qualified">
+
+    <!-- def: ticket -->
+    <xs:element name="ticket">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ticketID" type="xs:string"/>
+                <xs:element name="ticketType" type="xs:string"/>
+                <xs:element name="ticketPrice" type="xs:float"/>
+                <xs:element name="ticketCondition" type="xs:string"/> <!-- pending, active, expired-->
+                <xs:element name="userName" type="xs:string"/>
+                <xs:element name="eventID" type="xs:int"/>
+                <xs:element name="eventName" type="xs:string"/>
+                <xs:element name="activityID" type="xs:int"/>
+                <xs:element name="activityName" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- def: fee -->
+    <xs:element name="fee">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="feeID" type="xs:string"/>
+                <xs:element name="feeType" type="xs:string"/>
+                <xs:element name="feePrice" type="xs:float"/>
+                <xs:element name="feeCondition" type="xs:string"/> <!-- pending, active, expired-->
+                <xs:element name="feeDuration" type="xs:string"/>
+                <xs:element name="userName" type="xs:string"/>
+                <xs:element name="activityID" type="xs:int"/>
+                <xs:element name="activityName" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

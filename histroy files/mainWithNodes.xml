@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<culturalCenter
+        xmlns="https://www.datasciencetech.institute/mainWithNodes">
+    
+
+    <!-- Room database -->
+    <rooms>
+        <room>
+            <roomType>Opera Theater</roomType>
+            <roomID>001</roomID>
+            <seatNumber>200</seatNumber>
+            <area>1000</area>
+        </room>
+
+        <room>
+            <roomType>Opera Theater</roomType>
+            <roomID>101</roomID>
+            <seatNumber>500</seatNumber>
+            <area>2500</area>
+        </room>
+
+        <room>
+            <roomType>Conference Room</roomType>
+            <roomID>002</roomID>
+            <seatNumber>50</seatNumber>
+            <area>200</area>
+        </room>
+
+        <room>
+            <roomType>Dance Room</roomType>
+            <roomID>003</roomID>
+            <seatNumber>0</seatNumber>
+            <area>200</area>
+        </room>
+
+        <room>
+            <roomType>Film Room</roomType>
+            <roomID>202</roomID>
+            <seatNumber>150</seatNumber>
+            <area>800</area>
+        </room>
+    </rooms>
+
+
+
+    <!-- People database -->
+    <!--Artists section-->
+    <artists>
+        <artist>
+            <artistID>1</artistID>
+            <alias>YY Top</alias>
+            <kind>Group</kind>
+            <country>Germany</country>
+            <genre>Heavy Country</genre>
+            <about>Tribute to the famous group "ZZ Top"</about>
+            <activity>Music</activity>
+        </artist>
+
+        <artist>
+            <artistID>2</artistID>
+            <alias>Furious Kitten</alias>
+            <kind>Solo</kind>
+            <country>Norway</country>
+            <genre>Soft Punk</genre>
+            <about>Furious Kitten has an indescribable style. Powerful and funny. Similar to no one else.</about>
+            <activity>Music</activity>
+        </artist>
+
+        <artist>
+            <artistID>3</artistID>
+            <alias>Feet of Legend</alias>
+            <kind>Group</kind>
+            <country>Ireland</country>
+            <genre>Irish line dance</genre>
+            <about>Purely traditional line dancers, though they seem to all have extra feet when music goes faster.</about>
+            <links>#FeetOfLegend</links>
+            <activity>Dance</activity>
+        </artist>
+
+        <artist>
+            <artistID>4</artistID>
+            <alias>Mentalizer</alias>
+            <kind>Solo</kind>
+            <country>France</country>
+            <about>Mentalizer practices mass hypnosis at a higher degree. Some say he has an alien brain.</about>
+            <links>www.mentalizer.com</links>
+        </artist>
+    </artists>
+
+
+    <!-- teachers section -->
+    <teachers>
+        <teacher>
+            <teacherID>1</teacherID>
+            <firstName>Jean</firstName>
+            <lastName>Pierard</lastName>
+            <activity>Painting</activity>
+            <phone>0601011010</phone>
+            <email>j.pierard@mainmail.com</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>2</teacherID>
+            <firstName>Giuseppe</firstName>
+            <lastName>Delmonte</lastName>
+            <activity>Music</activity>
+            <phone>0725134875</phone>
+            <email>giuDelmonte@othermail.com</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>3</teacherID>
+            <firstName>Nina</firstName>
+            <lastName>Holstein</lastName>
+            <activity>Voice</activity>
+            <phone>0714218695</phone>
+            <email>ninaholst@mailpost.glo</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>4</teacherID>
+            <firstName>Shi-Woo</firstName>
+            <lastName>Park</lastName>
+            <activity>Theater</activity>
+            <phone>00425458165646</phone>
+            <email>swp.art@mainmail.com</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>5</teacherID>
+            <firstName>Terrence</firstName>
+            <lastName>Almond</lastName>
+            <activity>Dance</activity>
+            <phone>052489651</phone>
+            <email>Almondtrr@othermail.com</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>6</teacherID>
+            <firstName>Viviane</firstName>
+            <lastName>Ludovicus</lastName>
+            <activity>Drawing</activity>
+            <phone>0751849632</phone>
+            <email>vludovicus@mail.glo</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>7</teacherID>
+            <firstName>Simisola</firstName>
+            <lastName>Darshan</lastName>
+            <activity>Sculpture</activity>
+            <phone>0752418747</phone>
+            <email>simidarshan@mail.glo</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>8</teacherID>
+            <firstName>Shrivatsa</firstName>
+            <lastName>Cassiopeia</lastName>
+            <activity>Ceramics</activity>
+            <phone>06596325874</phone>
+            <email>cassiop@mail.glo</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>9</teacherID>
+            <firstName>Tadesse</firstName>
+            <lastName>Jyrgal</lastName>
+            <activity>Photography</activity>
+            <phone>0636987412</phone>
+            <email>t.jyrgal@somemail.com</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>10</teacherID>
+            <firstName>Natsumi</firstName>
+            <lastName>Ozana</lastName>
+            <activity>Language</activity>
+            <phone>0678102148</phone>
+            <email>natsumi.ozana@message.jpn</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>11</teacherID>
+            <firstName>Kerim</firstName>
+            <lastName>Luna</lastName>
+            <activity>Sport</activity>
+            <phone>0625897641</phone>
+            <email>kerimluna@mail.glo</email>
+        </teacher>
+
+        <teacher>
+            <teacherID>12</teacherID>
+            <firstName>Kasper</firstName>
+            <lastName>Raj</lastName>
+            <activity>Cooking</activity>
+            <phone>074102316985</phone>
+            <email>k.raj@mail.glo</email>
+        </teacher>
+    </teachers>
+
+
+    <!--public section-->
+    <publics>
+        <public>
+            <publicID>1</publicID>
+            <firstName>Veia</firstName>
+            <lastName>Lomoji</lastName>
+            <gender>Female</gender>
+            <activity>Dance</activity>
+            <activity>Painting</activity>
+            <phone>1245789865</phone>
+            <email>veialomoji@somemail.glo</email>
+        </public>
+
+        <public>
+            <publicID>2</publicID>
+            <firstName>Tony</firstName>
+            <lastName>Reynald</lastName>
+            <gender>Male</gender>
+            <activity>Cooking</activity>
+            <phone>12023254</phone>
+            <email>tonyreynald@somemail.glo</email>
+        </public>
+
+        <public>
+            <publicID>3</publicID>
+            <firstName>John</firstName>
+            <lastName>Gardener</lastName>
+            <gender>Male</gender>
+            <activity>Theater</activity>
+            <activity>Voice</activity>
+            <phone>4545858565</phone>
+            <email>johngardener@somemail.glo</email>
+        </public>
+
+        <public>
+            <publicID>4</publicID>
+            <firstName>Sonia</firstName>
+            <lastName>Alba</lastName>
+            <gender>Female</gender>
+            <activity>Dance</activity>
+            <phone>4215489898</phone>
+            <email>soniaalba@somemail.glo</email>
+        </public>
+
+        <public>
+            <publicID>5</publicID>
+            <firstName>Frieda</firstName>
+            <lastName>Argentino</lastName>
+            <gender>Female</gender>
+            <activity>Painting</activity>
+            <phone>659842515236</phone>
+            <email>friedaarg@somemail.glo</email>
+        </public>
+
+        <public>
+            <publicID>6</publicID>
+            <firstName>Philip</firstName>
+            <lastName>Ledoux</lastName>
+            <gender>Male</gender>
+            <activity>Music</activity>
+            <phone>0213568544</phone>
+            <email>philipledoux@belgomail.be</email>
+        </public>
+
+        <public>
+            <publicID>7</publicID>
+            <firstName>Baird</firstName>
+            <lastName>O'Connell</lastName>
+            <gender>Male</gender>
+            <activity>Voice</activity>
+            <phone>44452512884</phone>
+            <email>bairdoconnell@somemail.glo</email>
+        </public>
+
+        <public>
+            <publicID>8</publicID>
+            <firstName>Paedur</firstName>
+            <lastName>O'Connell</lastName>
+            <gender>Male</gender>
+            <activity>Voice</activity>
+            <phone>444221668468</phone>
+            <email>paeduroconnell@somemail.com</email>
+        </public>
+
+        <public>
+            <publicID>9</publicID>
+            <firstName>Madilyn</firstName>
+            <lastName>Solongo</lastName>
+            <gender>Female</gender>
+            <activity>Sport</activity>
+            <phone>51384978168416</phone>
+            <email>msolongo@somemail.com</email>
+        </public>
+
+        <public>
+            <publicID>10</publicID>
+            <firstName>Venetia</firstName>
+            <lastName>Sanda</lastName>
+            <gender>Female</gender>
+            <activity>Ceramics</activity>
+            <phone>0054661418616</phone>
+            <email>vsanda@mail.glo</email>
+        </public>
+
+        <public>
+            <publicID>11</publicID>
+            <firstName>Fedelm</firstName>
+            <lastName>Vilma</lastName>
+            <gender>Male</gender>
+            <activity>Drawing</activity>
+            <phone>44199114181</phone>
+            <email>fedvil@dobmail.com</email>
+        </public>
+
+        <public>
+            <publicID>12</publicID>
+            <firstName>Rebecca</firstName>
+            <lastName>Ludwig</lastName>
+            <gender>Female</gender>
+            <activity>Photography</activity>
+            <phone>68186846464</phone>
+            <email>rebeccalu@mail.fr</email>
+        </public>
+
+        <public>
+            <publicID>13</publicID>
+            <firstName>Yumiko</firstName>
+            <lastName>Sigilina</lastName>
+            <gender>Female</gender>
+            <activity>Language</activity>
+            <phone>98791664654564</phone>
+            <email>ysigil@yggdrasil.com</email>
+        </public>
+
+        <public>
+            <publicID>14</publicID>
+            <firstName>Bogdan</firstName>
+            <lastName>Shigeo</lastName>
+            <gender>Male</gender>
+            <activity>Sculpture</activity>
+            <phone>68181798313</phone>
+            <email>bogdans@mail.glo</email>
+        </public>
+
+        <public>
+            <publicID>15</publicID>
+            <firstName>Priti</firstName>
+            <lastName>Sabia</lastName>
+            <gender>Female</gender>
+            <activity>Dance</activity>
+            <phone>6198188488</phone>
+            <email>pritisabia@somemail.com</email>
+        </public>
+
+        <public>
+            <publicID>16</publicID>
+            <firstName>Hormoz</firstName>
+            <lastName>Helve</lastName>
+            <gender>Male</gender>
+            <activity>Photography</activity>
+            <phone>867198849149</phone>
+            <email>hh86@othermail.com</email>
+        </public>
+
+        <public>
+            <publicID>17</publicID>
+            <firstName>Merethe</firstName>
+            <lastName>Bugs</lastName>
+            <gender>Female</gender>
+            <activity>Sculpture</activity>
+            <phone>64618989894</phone>
+            <email>merethebugs@mail.glo</email>
+        </public>
+
+        <public>
+            <publicID>18</publicID>
+            <firstName>Inken</firstName>
+            <lastName>Ivar</lastName>
+            <gender>Female</gender>
+            <activity>Voice</activity>
+            <phone>9849665565</phone>
+            <email>inivar@mail.nor</email>
+        </public>
+
+        <public>
+            <publicID>19</publicID>
+            <firstName>Sree</firstName>
+            <lastName>Hans</lastName>
+            <gender>Male</gender>
+            <activity>Sport</activity>
+            <phone>981984491491</phone>
+            <email>sreehans@mail.glo</email>
+        </public>
+    </publics>
+
+
+
+    <!-- activity&event database -->
+    <!-- activity section -->
+    <activities>
+        <activity>
+            <activityID>1</activityID>
+            <activityName>Dance Workshop</activityName>
+            <activityType>Dance</activityType>
+            <roomID>003</roomID>
+            <teacherID>5</teacherID>
+            <publicID>4</publicID>
+            <description>Attending workshops is a fantastic way for anyone who adores dancing to step outside their comfort zones, make connections and discover new ways to move and create.</description>
+        </activity>
+
+        <activity>
+            <activityID>2</activityID>
+            <activityName>Painting Class</activityName>
+            <activityType>Painting</activityType>
+            <roomID>101</roomID>
+            <teacherID>1</teacherID>
+            <publicID>5</publicID>
+            <description>An art class for exploring your creativity through painting. Students learn about surface preparation, color mixing, composition and creating different textures and effects.</description>
+        </activity>
+
+        <activity>
+            <activityID>3</activityID>
+            <activityName>Vocal Training</activityName>
+            <activityType>Voice</activityType>
+            <roomID>101</roomID>
+            <teacherID>3</teacherID>
+            <publicID>3</publicID>
+            <publicID>7</publicID>
+            <publicID>8</publicID>
+            <publicID>18</publicID>
+            <description>This course is designed to improve the singing voice and help develop the ability to sing successfully in front of others.</description>
+        </activity>
+
+        <activity>
+            <activityID>4</activityID>
+            <activityName>Theater Workshop</activityName>
+            <activityType>Theater</activityType>
+            <roomID>101</roomID>
+            <teacherID>4</teacherID>
+            <publicID>3</publicID>
+            <description>Theater Workshop produces inclusive, accessible and affordable theater education that entertains, educates and enlightens.</description>
+        </activity>
+
+        <activity>
+            <activityID>5</activityID>
+            <activityName>Music Jam Session</activityName>
+            <activityType>Music</activityType>
+            <roomID>002</roomID>
+            <teacherID>2</teacherID>
+            <publicID>6</publicID>
+            <description>Jam sessions are for players to interact with other players and make music in a freewheeling environment, without having to be concerned about pleasing an audience.</description>
+        </activity>
+
+        <activity>
+            <activityID>6</activityID>
+            <activityName>Drama Club</activityName>
+            <activityType>Theater</activityType>
+            <roomID>001</roomID>
+            <teacherID>4</teacherID>
+            <publicID>3</publicID>
+            <description>A weekly drama club meeting for theater enthusiasts.</description>
+        </activity>
+
+        <activity>
+            <activityID>7</activityID>
+            <activityName>Ballet Workshop</activityName>
+            <activityType>Dance</activityType>
+            <roomID>001</roomID>
+            <teacherID>4</teacherID>
+            <publicID>4</publicID>
+            <publicID>15</publicID>
+            <description>This beginning level class is designed to develop awareness of alignment and basic ballet vocabulary and technique. Class will include basic barre exercises, as well as center work.</description>
+        </activity>
+
+        <activity>
+            <activityID>8</activityID>
+            <activityName>Drawing Class</activityName>
+            <activityType>Drawing</activityType>
+            <roomID>002</roomID>
+            <teacherID>6</teacherID>
+            <publicID>11</publicID>
+            <description>Developing drawing skills using sketching and pencil drawing techniques.</description>
+        </activity>
+
+        <activity>
+            <activityID>9</activityID>
+            <activityName>Sculpturing Class</activityName>
+            <activityType>Sculpture</activityType>
+            <roomID>002</roomID>
+            <teacherID>7</teacherID>
+            <publicID>14</publicID>
+            <publicID>17</publicID>
+            <description>Beginner's sculpting lessons focusing on clay and wood modeling.</description>
+        </activity>
+
+        <activity>
+            <activityID>10</activityID>
+            <activityName>Ceramics Classes</activityName>
+            <activityType>Ceramics</activityType>
+            <roomID>002</roomID>
+            <teacherID>8</teacherID>
+            <publicID>10</publicID>
+            <description>Creating pretty objects with your hands is both a satisfying activity but also an opportunity to meet new people around highly feel good. This is a beginning ceramics-pottery class for everyone who is interested in acquiring knowledge and skills in clay.</description>
+        </activity>
+
+        <activity>
+            <activityID>11</activityID>
+            <activityName>Learn Photography</activityName>
+            <activityType>Photography</activityType>
+            <roomID>202</roomID>
+            <teacherID>9</teacherID>
+            <publicID>16</publicID>
+            <description>These lessons are for people of all photographic experience levels interested in exploring the studio portrait photography.</description>
+        </activity>
+
+        <activity>
+            <activityID>12</activityID>
+            <activityName>Chess Classes</activityName>
+            <activityType>Sport</activityType>
+            <roomID>002</roomID>
+            <teacherID>11</teacherID>
+            <publicID>19</publicID>
+            <description>Learning how to play chess and practicing the game with similar enthusiasts like you are.</description>
+        </activity>
+
+        <activity>
+            <activityID>13</activityID>
+            <activityName>Pilates Workouts</activityName>
+            <activityType>Sport</activityType>
+            <roomID>003</roomID>
+            <teacherID>11</teacherID>
+            <publicID>9</publicID>
+            <description>Join us for some Pilates workouts! We do exercises which work on core strength and flexibility, as well as general stabilization exercises, that will get your body and keep your body in the good condition.</description>
+        </activity>
+
+        <activity>
+            <activityID>14</activityID>
+            <activityName>Yoga Time</activityName>
+            <activityType>Sport</activityType>
+            <roomID>003</roomID>
+            <teacherID>11</teacherID>
+            <publicID>9</publicID>
+            <description>One of the best ways to combat stress is to meditate and joining a class is more fun. Yoga is a physical, mental and spiritual practice that involves a combination of physical postures, breathing exercises and meditation techniques to promote physical and mental well-being.</description>
+        </activity>
+
+        <activity>
+            <activityID>15</activityID>
+            <activityName>The Basics of Gourmet Cooking</activityName>
+            <activityType>Cooking</activityType>
+            <roomID>002</roomID>
+            <teacherID>12</teacherID>
+            <publicID>2</publicID>
+            <description>The Basics of Gourmet Cooking is a beginning series of cooking classes perfect for cooks who are just starting out or would like to refresh their fundamentals.</description>
+        </activity>
+
+        <activity>
+            <activityID>16</activityID>
+            <activityName>Practice French with fun (and wine)</activityName>
+            <activityType>Language</activityType>
+            <roomID>002</roomID>
+            <teacherID>10</teacherID>
+            <publicID>13</publicID>
+            <description>Combine a guided tour with an opportunity to improve your French language skills with our conversational class at Paris.</description>
+        </activity>
+
+        <activity>
+            <activityID>17</activityID>
+            <activityName>Jazz Music and Jazz Dance</activityName>
+            <activityType>Music</activityType>
+            <activityType>Dance</activityType>
+            <roomID>003</roomID>
+            <teacherID>2</teacherID>
+            <teacherID>5</teacherID>
+            <description>Jazz dance explodes with energy as it has you kicking and leaping across the floor to some popular show tunes. Our Absolute Beginner Jazz classes are perfect for those who want to learn Jazz.</description>
+        </activity>
+
+        <activity>
+            <activityID>18</activityID>
+            <activityName>Hip Hop dance lessons</activityName>
+            <activityType>Dance</activityType>
+            <roomID>003</roomID>
+            <teacherID>5</teacherID>
+            <publicID>15</publicID>
+            <description>Hip Hop dance combines several styles including popping, locking, waving, waacking and more. During the course, students will develop their coordination, their sense of rhythm and their flexibility while searching the precision of the movement.</description>
+        </activity>
+
+        <activity>
+            <activityID>19</activityID>
+            <activityName>Theater Workshop</activityName>
+            <activityType>Theater</activityType>
+            <roomID>101</roomID>
+            <teacherID>4</teacherID>
+            <description>A theater workshop is an interactive and educational experience where participants learn about various aspects of theater, including acting techniques, improvisation, script analysis and stagecraft. It provides a hands-on opportunity for individuals to explore their creativity and develop their acting skills.</description>
+        </activity>
+
+        <activity>
+            <activityID>20</activityID>
+            <activityName>Theater games</activityName>
+            <activityType>Theater</activityType>
+            <roomID>101</roomID>
+            <teacherID>4</teacherID>
+            <publicID>3</publicID>
+            <description>Theater games for groups are activities involving role-play that help develop essential skills like focus, listening, cooperation, and improvisation. The purpose of these activities is to warm up participants while teaching them valuable skills and building their confidence.</description>
+        </activity>
+    </activities>
+
+
+    <!-- event section -->
+    <events>
+        <event>
+            <eventID>1</eventID>
+            <eventName>Movie Night</eventName>
+            <eventType>Film Projection</eventType>
+            <roomID>202</roomID>
+            <description>An evening of fantasy film screenings.</description>
+        </event>
+
+        <event>
+            <eventID>2</eventID>
+            <eventName>Drama Showcase</eventName>
+            <eventType>Theater Show</eventType>
+            <roomID>101</roomID>
+            <publicID>3</publicID>
+            <description>A collection of short dramatic plays.</description>
+        </event>
+
+        <event>
+            <eventID>3</eventID>
+            <eventName>YY Top</eventName>
+            <eventType>Concert</eventType>
+            <roomID>001</roomID>
+            <artistID>1</artistID>
+            <description>Enjoy the famous group "ZZ Top" performance.</description>
+        </event>
+
+        <event>
+            <eventID>4</eventID>
+            <eventName>Tech Summit</eventName>
+            <eventType>Conference</eventType>
+            <roomID>002</roomID>
+            <description>A technology summit about Artificial Intelligence and Intellectual Law.</description>
+        </event>
+
+        <event>
+            <eventID>5</eventID>
+            <eventName>Furious Kitten Concert</eventName>
+            <eventType>Concert</eventType>
+            <roomID>001</roomID>
+            <artistID>2</artistID>
+            <description>Furious Kitten has an indescribable style. Powerful and funny. Similar to no one else.</description>
+        </event>
+
+        <event>
+            <eventID>6</eventID>
+            <eventName>Mentalizer</eventName>
+            <eventType>Concert</eventType>
+            <roomID>101</roomID>
+            <artistID>4</artistID>
+            <description>Mentalizer practices mass hypnosis at a higher degree. Some say he has an alien brain.</description>
+        </event>
+
+        <event>
+            <eventID>7</eventID>
+            <eventName>Photo Exhibition</eventName>
+            <eventType>Art Exhibition</eventType>
+            <roomID>101</roomID>
+            <description>Whether you prefer being behind the camera or in front of the lens, these temples to photography offer you the chance to discover art from its very best angle.</description>
+        </event>
+    </events>
+
+
+
+    <!-- ticket database -->
+    <!-- ticket section -->
+    <tickets>
+        <ticket>
+            <ticketID>20230801001</ticketID>
+            <ticketType>Standard Ticket</ticketType>
+            <ticketPrice>50</ticketPrice>
+            <ticketCondition>pending</ticketCondition>
+            <eventID>1</eventID>
+            <eventName>Movie Night</eventName>
+        </ticket>
+
+        <ticket>
+            <ticketID>20230905031</ticketID>
+            <ticketType>VIP Ticket</ticketType>
+            <ticketPrice>100</ticketPrice>
+            <ticketCondition>active</ticketCondition>
+            <eventID>2</eventID>
+            <eventName>Drama Showcase</eventName>
+        </ticket>
+
+        <ticket>
+            <ticketID>20230905100</ticketID>
+            <ticketType>VIP Ticket</ticketType>
+            <ticketPrice>100</ticketPrice>
+            <ticketCondition>expired</ticketCondition>
+            <eventID>3</eventID>
+            <eventName>YY Top</eventName>
+        </ticket>
+
+        <ticket>
+            <ticketID>20230908001</ticketID>
+            <ticketType>Standard Ticket</ticketType>
+            <ticketPrice>100</ticketPrice>
+            <ticketCondition>active</ticketCondition>
+            <eventID>4</eventID>
+            <eventName>Tech Summit</eventName>
+        </ticket>
+
+        <ticket>
+            <ticketID>20230912101</ticketID>
+            <ticketType>Reserved Ticket</ticketType>
+            <ticketPrice>40</ticketPrice>
+            <ticketCondition>expired</ticketCondition>
+            <eventID>5</eventID>
+            <eventName>Furious Kitten Concert</eventName>
+        </ticket>
+
+        <ticket>
+            <ticketID>20231111001</ticketID>
+            <ticketType>Reserved Ticket</ticketType>
+            <ticketPrice>40</ticketPrice>
+            <ticketCondition>active</ticketCondition>
+            <eventID>6</eventID>
+            <eventName>Mentalizer</eventName>
+        </ticket>
+
+        <ticket>
+            <ticketID>20231212144</ticketID>
+            <ticketType>Reserved Ticket</ticketType>
+            <ticketPrice>40</ticketPrice>
+            <ticketCondition>active</ticketCondition>
+            <eventID>7</eventID>
+            <eventName>Photo Exhibition</eventName>
+        </ticket>
+    </tickets>
+
+
+    <!-- fee section -->
+    <fees>
+        <fee>
+            <feeID>20230212031</feeID>
+            <feeType>Standard</feeType>
+            <feePrice>10</feePrice>
+            <feeCondition>active</feeCondition>
+            <feeDuration>10 lessons</feeDuration>
+            <userName>Margotte Roddie</userName>
+            <activityID>1</activityID>
+            <activityName>Dance Workshop</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20230403095</feeID>
+            <feeType>Child</feeType>
+            <feePrice>5</feePrice>
+            <feeCondition>active</feeCondition>
+            <feeDuration>5 lessons</feeDuration>
+            <userName>Jin Silver</userName>
+            <activityID>2</activityID>
+            <activityName>Painting Class</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20231205095</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>7</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>5 lessons</feeDuration>
+            <userName>Jess Solar</userName>
+            <activityID>3</activityID>
+            <activityName>Vocal Training</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20231212021</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>7</feePrice>
+            <feeCondition>active</feeCondition>
+            <feeDuration>4 lessons</feeDuration>
+            <userName>Adele Haven</userName>
+            <activityID>4</activityID>
+            <activityName>Theater Workshop</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20231224005</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>5</feePrice>
+            <feeCondition>active</feeCondition>
+            <feeDuration>1 session</feeDuration>
+            <userName>Noemie Messidi</userName>
+            <activityID>5</activityID>
+            <activityName>Music Jam Session</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20231231011</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>5</feePrice>
+            <feeCondition>expired</feeCondition>
+            <feeDuration>1 entry</feeDuration>
+            <userName>Scarlea Solar</userName>
+            <activityID>6</activityID>
+            <activityName>Drama Club</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240105051</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>10</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>8 lessons</feeDuration>
+            <userName>Emme Waterloo</userName>
+            <activityID>7</activityID>
+            <activityName>Ballet Workshop</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240112050</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>10</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>10 lessons</feeDuration>
+            <userName>Ann Yorkshire</userName>
+            <activityID>8</activityID>
+            <activityName>Drawing Class</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240201002</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>15</feePrice>
+            <feeCondition>active</feeCondition>
+            <feeDuration>4 lessons</feeDuration>
+            <userName>Taraji Bassett</userName>
+            <activityID>9</activityID>
+            <activityName>Sculpturing Class</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240205009</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>20</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>4 lessons</feeDuration>
+            <userName>Zenda Colenen</userName>
+            <activityID>10</activityID>
+            <activityName>Ceramics Classes</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240225105</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>10</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>10 lessons</feeDuration>
+            <userName>Seyma Hayek</userName>
+            <activityID>11</activityID>
+            <activityName>Learn Photography</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240309031</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>5</feePrice>
+            <feeCondition>active</feeCondition>
+            <feeDuration>5 lessons</feeDuration>
+            <userName>Jess Solar</userName>
+            <activityID>12</activityID>
+            <activityName>Chess Classes</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240311015</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>10</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>5 lessons</feeDuration>
+            <userName>Yoko Susaono</userName>
+            <activityID>13</activityID>
+            <activityName>Pilates Workouts</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240411029</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>15</feePrice>
+            <feeCondition>expired</feeCondition>
+            <feeDuration>8 lessons</feeDuration>
+            <userName>Hyenji Park</userName>
+            <activityID>14</activityID>
+            <activityName>Yoga Time</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240904047</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>30</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>6 lessons</feeDuration>
+            <userName>Lily Setiany</userName>
+            <activityID>15</activityID>
+            <activityName>The Basics of Gourmet Cooking</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20240930075</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>20</feePrice>
+            <feeCondition>active</feeCondition>
+            <feeDuration>8 lessons</feeDuration>
+            <userName>Jenn Alday</userName>
+            <activityID>16</activityID>
+            <activityName>Practice French with fun (and wine)</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20241010019</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>10</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>5 entries</feeDuration>
+            <userName>Savu Valinci</userName>
+            <activityID>17</activityID>
+            <activityName>Jazz Music and Jazz Dance</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20241031036</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>20</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>10 lessons</feeDuration>
+            <userName>Hikari Shima</userName>
+            <activityID>18</activityID>
+            <activityName>Hip Hop dance lessons</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20241124087</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>5</feePrice>
+            <feeCondition>active</feeCondition>
+            <feeDuration>5 lessons</feeDuration>
+            <userName>Awkwafina</userName>
+            <activityID>19</activityID>
+            <activityName>Theater Workshop</activityName>
+        </fee>
+
+        <fee>
+            <feeID>20241225025</feeID>
+            <feeType>Elder</feeType>
+            <feePrice>7</feePrice>
+            <feeCondition>pending</feeCondition>
+            <feeDuration>2 lessons</feeDuration>
+            <userName>Nick Sheild</userName>
+            <activityID>20</activityID>
+            <activityName>Theater games</activityName>
+        </fee>
+    </fees>
+
+
+</culturalCenter>

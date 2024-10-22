@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/culturalCenter",
+    "definitions": {
+        "culturalCenter": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "culturalCenter": {
+                    "$ref": "#/definitions/CulturalCenter"
+                }
+            },
+            "required": [
+                "culturalCenter"
+            ],
+            "title": "culturalCenter"
+        },
+        "CulturalCenter": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "activity": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Activity"
+                    }
+                }
+            },
+            "required": [
+                "activity"
+            ],
+            "title": "CulturalCenter"
+        },
+        "Activity": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "activityID": {"description": "The unique identifier for the activity",
+                         	   "type": "integer" },
+                "activityName": { "description": "The name of the activity",
+            					  "type": "string" },
+                "activityType": { "description": "Sphere in which the activity is taking place",
+            					  "type": "string",
+							      "enum": ["Music", "Dance", "Voice", "Painting", "Drawing", "Sculpture", "Ceramics", "Photography", "Theater", "Language", "Sport", "Cooking"] },
+                "description": {"type": "string"}
+            },
+            "required": [
+                "activityID",
+                "activityName",
+                "activityType",
+                "description"
+            ],
+            "title": "Activity"
+        }
+    }
+}
